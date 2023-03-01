@@ -18,13 +18,13 @@
 /*-------------------------------------------------------------------------------------------------
                                         Windows 11 emojis
 --------------------------------------------------------------------------------------------------*/
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css);
+/* @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css); */
 
 /*--------------------------------------------------------------
 Message bubble styles [If you don't want any place a /* in all]
 ----------------------------------------------------------------*/
 /* Message Bubble in Left Side */
-@import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
+/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css); */
 /* Default Message Bubble */
 /* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css); */
 /* New Message Bubble */
@@ -37,7 +37,7 @@ Message bubble styles [If you don't want any place a /* in all]
                enable Transparency in BD Settings]
 ---------------------------------------------------------------*/
 /*--Yes you can enable/disable this--*/
-/* @import url(https://zuzumi-f.github.io/Discord-11/release/glasseffect.css); */
+@import url(https://zuzumi-f.github.io/Discord-11/release/glasseffect.css);
 
 /*--------------------------------------------------------------
                            Settings
@@ -52,6 +52,10 @@ Message bubble styles [If you don't want any place a /* in all]
     --H: 199; /* Value only number [199 is default] */
     --S: 100%; /* Value in % [100% is default] */
     --L: 69%; /* Value in % [69% is default] */
+
+    --H: 337;
+    --S: 100%;
+    --L: 50%;
 }
 
 /*----------------------------------------------------
